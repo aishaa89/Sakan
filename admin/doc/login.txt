@@ -1,0 +1,6 @@
+login page:appear form specific login
+
+
+2)check if the user exist in database
+
+3)if the user exist in database(redirect to his profile specific)else(redirect him to signup)

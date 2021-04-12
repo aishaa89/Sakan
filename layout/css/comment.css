@@ -1,0 +1,159 @@
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider{
+    width: 100%;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.row{
+  
+    margin-top: 40px;
+   
+}
+.addcomment{
+    margin-top: 40px;
+    
+     margin-bottom: 10px;
+    
+    
+}
+.data{
+   
+     margin-bottom: 20px;
+    float: left;
+    
+}
+
+.addcomment h3{
+    margin:0 0 10px;
+    text-align: center;
+    
+}
+.custom-hr{
+    border-top: 1px solid #c9c9c9;
+    margin-top: 20px;
+    
+}
+.addcomment textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    
+    
+    
+}
+.comment-box{
+    margin-bottom: 5px;
+    float: left;
+    
+}
+.comment-box img{
+    margin-bottom: 10px;
+    max-width: 100px;
+    display: block;
+}
+.lead{
+
+    position: relative;
+    padding: 10px;
+   width: 400px;
+   background-color: #e0e0e0;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+.lead:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    border-color: transparent #e0e0e0 transparent transparent;
+    left: -20px;
+    top: 13px;
+}
+.item-info h2{
+    margin: 0;
+    padding: 10px;
+}
+.item- info p{
+    padding: 10px;
+    
+}
+.item-info ul li{
+    padding: 10px;
+    
+    
+}
+.item-info ul li:nth-child(odd){
+    background-color: #e8e8e8;
+}
+.item-info ul li span{
+    display: inline-block;
+    width: 120px;
+}

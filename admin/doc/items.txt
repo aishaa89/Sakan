@@ -1,0 +1,19 @@
+items page (flats page)
+
+contains home page(manage page)
+
+** in  manage page  showing all flats with all data specific with it
+
+the admin also can be through this page
+
+1)add flats(throgh form contains required specificatons ex(price,images))
+
+2)control in specific flat (edit specific flat,delete specific flat,approve specific flat)
+through (id flats)
+
+
+** In edit specific flat :apper form  contains previous data then he can edit  then go to update page that he can be trough sure that update is done
+
+**In delete specific flat:sure from this flat through id  if this idflat in db (delete all data specific this id) else this idflat is not in db (redirect to the pravious page)
+
+**In Approve specific flat:sure from this flat through id  if this idflat in db (update approve colum =1) else this idflat is not in db (redirect to the pravious page)

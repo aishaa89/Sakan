@@ -1,0 +1,73 @@
+
+body {
+	direction: ltr;
+
+}
+.mainFrame{
+    width:520px;
+    height:520px;
+	
+    background: #DDC;
+	border:5px solid grey;
+	position:relative;
+	/*bottom:10%;
+	left: 29%;*/
+	direction: ltr;
+	margin: auto;
+
+}
+
+img{
+width: 62px;
+height:59px;
+position: absolute;
+top:2%;
+right:83%;
+
+/*border: .5px solid black ;*/
+
+}
+
+textarea{
+font-size:19px;
+	direction: rtl;
+	position: absolute;
+	bottom: 13%;
+	left: 6%;
+	width:455px;/**/
+	height: 360px;
+	background: white;
+	border: 1px solid grey;
+
+}
+.cancel{
+	
+	direction: ltr;
+	/*position: absolute;
+	bottom: 4%;
+	left:83%;*/
+	
+	width:56px;
+	
+	height: 30px;
+
+	cursor: pointer;
+	/*font-weight: bold;*/
+		background-color: #428bca;
+		color:white;
+}
+.post{
+	direction: ltr;
+	position: absolute;
+	bottom: 4%;
+	left: 80%;
+width: 70px;
+	height: 30px;
+		cursor: pointer;
+		/*font-weight: bold;*/
+		background-color: #428bca;
+		color:white;
+
+}
+
+
